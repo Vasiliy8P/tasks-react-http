@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import PokemonInfo from './PokemonInfo/PokemonInfo';
-import PokemonForm from './PokemonForm/PokemonForm';
+import PokemonInfo from 'components/PokemonInfo';
+import PokemonForm from 'components/PokemonForm';
+
 import { ToastContainer } from 'react-toastify';
 
 export default class App extends Component {
@@ -18,9 +19,10 @@ export default class App extends Component {
         style={{
           height: '100vh',
           display: 'flex',
+          flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          fontSize: 20,
+          fontSize: 16,
           color: '#010101'
         }}
       >
