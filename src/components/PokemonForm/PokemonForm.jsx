@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 
 export default class PokemonForm extends Component {
     state = {
